@@ -7,6 +7,7 @@ import DataSourceLoader from "./components/data-source";
 import axios from "axios";
 import DataSourceRenderLoader from "./components/data-source-render-props";
 import { UncontrolledForm } from "./components/uncontrolled-form";
+import { ControlledForm } from "./components/controlled-form";
 
 function App() {
   return (
@@ -23,6 +24,11 @@ function App() {
       <section>
         <h3>Uncontrolled Forms</h3>
         <UncontrolledForm/>
+      </section>
+
+      <section>
+      <h3>Controlled Forms</h3>
+      <ControlledForm/>
       </section>
     </>
   );
